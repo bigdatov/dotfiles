@@ -69,6 +69,9 @@ install openvpn
 install docker
 install nmap
 
+# vscode
+sudo snap install --classic code
+
 # run all scripts in scripts/
 for scrpt in scripts/*.sh; do bash "$scrpt" -H; done
 
