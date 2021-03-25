@@ -7,20 +7,20 @@ help: ## Show this help
 backup-dconf: ## Backup dconf settings to ~/.config/dconf/settings.dconf
 	dconf dump /org/gnome/ > ./.config/dconf/settings.dconf
 
-backup-vsce: ## Backup a list of VS Code extensions to ~/.config/Code/extensions.txt
+backup-code: ## Backup a list of VS Code extensions to ~/.config/Code/extensions.txt
 	code --list-extensions > ~/.config/Code/extensions.txt
 	cp -r ~/.config/Code/User/snippets ./.config/Code/User/
 	cp ~/.config/Code/User/keybindings.json ./.config/Code/User/keybindings.json
 	cp ~/.config/Code/User/settings.json ./.config/Code/User/settings.json
 
-backup: backup-dconf backup-vsce ## Backup dconf and VS Code extensions files
+backup: backup-dconf backup-code ## Backup dconf and VS Code extensions files
 
 restore-dconf: ## Restore dconf settings from ~/.config/dconf/settings.dconf # TODO copy it from dotfiles repo
 	dconf load /org/gnome/ < ./.config/dconf/settings.dconf
 
-restore-vsce:
+restore-code:  ## Restore VS Code settings, keybingins, and snippets
 	cp -r ./.config/Code/User/snippets ~/.config/Code/User/
-	cp ./.config/Code/User/keybindings.json ~/.config/Code/User	/keybindings.json
+	cp ./.config/Code/User/keybindings.json ~/.config/Code/User/keybindings.json
 	cp ./.config/Code/User/settings.json ~/.config/Code/User/settings.json
 
 setup:  ## Setup local Ubuntu install

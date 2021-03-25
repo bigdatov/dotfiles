@@ -1,26 +1,56 @@
 {
-    "diffEditor.renderSideBySide": false,
-    "explorer.confirmDelete": false,
-    "python.formatting.blackArgs": [
-        "--line-length",
-        "88"
-    ],
-    "python.formatting.provider": "black",
-    "python.linting.mypyEnabled": true,
-    "python.showStartPage": false,
-    "restructuredtext.languageServer.disabled": true,
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "terminal.integrated.fontFamily": "'Jet Brains Mono Thin', 'monospace', monospace, 'Droid Sans Fallback'",
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "vsicons.dontShowNewVersionMessage": true,
-    "window.restoreFullscreen": true,
-    "window.titleBarStyle": "custom",
-    "workbench.colorTheme": "Pitch Black",
-    "workbench.editorAssociations": [
-        {
-            "filenamePattern": "*.ipynb",
-            "viewType": "jupyter.notebook.ipynb"
-        }
-    ]
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[markdown]": {
+		"editor.quickSuggestions": false,
+		"editor.wordWrap": "bounded",
+		"editor.wordWrapColumn": 100
+	},
+	"diffEditor.renderSideBySide": false,
+	"editor.autoIndent": "advanced",
+	"editor.formatOnSave": true,
+	"editor.tabSize": 4,
+	"explorer.confirmDelete": false,
+	"files.autoSave": "afterDelay",
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"githubPullRequests.telemetry.enabled": false,
+	"prettier.printWidth": 88,
+	"prettier.tabWidth": 4,
+	"prettier.trailingComma": "es5",
+	"prettier.useTabs": true,
+	"python.formatting.blackArgs": ["--line-length", "88"],
+	"python.formatting.provider": "black",
+	"python.linting.mypyEnabled": true,
+	"python.showStartPage": false,
+	"restructuredtext.languageServer.disabled": true,
+	"svelte.plugin.html.completions.enable": true,
+	"svelte.plugin.html.renameTags.enable": true,
+	"svelte.plugin.html.tagComplete.enable": true,
+	"svelte.plugin.svelte.format.enable": true,
+	"svelte.plugin.svelte.hover.enable": true,
+	"telemetry.enableCrashReporter": false,
+	"telemetry.enableTelemetry": false,
+	"terminal.integrated.fontFamily": "'Jet Brains Mono Thin', 'monospace', monospace, 'Droid Sans Fallback'",
+	"terminal.integrated.shell.linux": "/bin/bash",
+	"vsicons.dontShowNewVersionMessage": true,
+	"window.restoreFullscreen": true,
+	"window.titleBarStyle": "custom",
+	"workbench.colorTheme": "Pitch Black",
+	"workbench.editorAssociations": [
+		{
+			"filenamePattern": "*.ipynb",
+			"viewType": "jupyter.notebook.ipynb"
+		}
+	]
 }
