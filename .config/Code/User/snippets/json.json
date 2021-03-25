@@ -1,0 +1,7 @@
+{
+    "snippet for new snippets": {
+        "prefix": "snippetjson",
+        "body": "\"$1 \": {\"prefix\": \"$2\",\"body\":\"$0\",\"description\":\"$3\"}",
+        "description": "snippet that's used to create new snippets easily",
+    },
+}

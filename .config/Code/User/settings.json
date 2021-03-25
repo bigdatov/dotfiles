@@ -1,0 +1,26 @@
+{
+    "diffEditor.renderSideBySide": false,
+    "explorer.confirmDelete": false,
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "88"
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.mypyEnabled": true,
+    "python.showStartPage": false,
+    "restructuredtext.languageServer.disabled": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.fontFamily": "'Jet Brains Mono Thin', 'monospace', monospace, 'Droid Sans Fallback'",
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.restoreFullscreen": true,
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Pitch Black",
+    "workbench.editorAssociations": [
+        {
+            "filenamePattern": "*.ipynb",
+            "viewType": "jupyter.notebook.ipynb"
+        }
+    ]
+}
