@@ -28,5 +28,11 @@ restore-exts:  ## Restore VS Code extensions
 
 restore: restore-dconf restore-code restore-exts ## Restore dconf and VS Code from backed up configs
 
-setup:  ## Setup local Ubuntu install
+devtools:  ## Setup devtools
+	bash devtools.sh
+
+copy:  ## Copy local Ubuntu install
 	bash copy.sh
+
+setup:  ## Setup local Ubuntu install
+	bash setup.sh

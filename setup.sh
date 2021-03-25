@@ -19,6 +19,13 @@ function install() {
     fi
 }
 
+function install_tarball() {
+    wget $2
+    tar xvf $(basename $2)
+    rm -f $(basename $2)
+    mv ./$1 ~/
+}
+
 # basic stuff
 install make
 install curl
@@ -71,6 +78,9 @@ install nmap
 
 # vscode
 sudo snap install --classic code
+
+# devtools
+bash devtools.sh
 
 # run all scripts in scripts/
 for scrpt in scripts/*.sh; do bash "$scrpt" -H; done
