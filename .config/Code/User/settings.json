@@ -32,6 +32,18 @@
 	"python.formatting.blackArgs": ["--line-length", "88"],
 	"python.formatting.provider": "black",
 	"python.linting.mypyEnabled": true,
+	"python.linting.mypyArgs": [
+		"--ignore-missing-imports",
+		"--follow-imports=normal",
+		"--show-column-numbers",
+		"--show-error-context",
+		"--strict-equality",
+		"--allow-redefinition",
+		"--warn-unreachable",
+		"--warn-unused-ignores",
+		"--warn-redundant-casts",
+		"--pretty"
+	],
 	"python.showStartPage": false,
 	"restructuredtext.languageServer.disabled": true,
 	"svelte.plugin.html.completions.enable": true,
@@ -45,6 +57,7 @@
 	"terminal.integrated.shell.linux": "/bin/bash",
 	"vsicons.dontShowNewVersionMessage": true,
 	"window.restoreFullscreen": true,
+	"editor.fontFamily": "'Jet Brains Mono Thin', 'monospace', monospace, 'Droid Sans Fallback'",
 	"window.titleBarStyle": "custom",
 	"workbench.colorTheme": "Pitch Black",
 	"workbench.editorAssociations": [

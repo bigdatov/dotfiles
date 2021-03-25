@@ -15,7 +15,7 @@ backup-code: ## Backup a list of VS Code extensions to ~/.config/Code/extensions
 
 backup: backup-dconf backup-code ## Backup dconf and VS Code extensions files
 
-restore-dconf: ## Restore dconf settings from ~/.config/dconf/settings.dconf # TODO copy it from dotfiles repo
+restore-dconf: ## Restore dconf settings from ~/.config/dconf/settings.dconf
 	dconf load /org/gnome/ < ./.config/dconf/settings.dconf
 
 restore-code:  ## Restore VS Code settings, keybingins, and snippets

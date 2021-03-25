@@ -1,5 +1,6 @@
 [user]
 email = bigdatov@gmail.com
 name = bigdatov
+username = bigdatov
 [commit]
 template = ~/.gitmessage
