@@ -35,9 +35,9 @@ function cd() {
 
 # python stuff
 alias pv='pyenv which python'
-alias pg38='pyenv global 3.8.5'
-alias pg39='pyenv global 3.9.0'
-alias pgpypy='pyenv global pypy3.7-7.3.3'
+alias pg38='export PYENV_VERSION="3.8.5"'
+alias pg39='export PYENV_VERSION="3.9.0"'
+alias pgpypy='export PYENV_VERSION="pypy3.7-7.3.3"'
 
 source "$HOME/.cargo/env"
 source "$HOME/.poetry/env"
@@ -46,10 +46,10 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.poetry/bin:$PATH"
 export PATH="$HOME/.pyenv/bin:$PATH"
 
+export PYENV_VERSION="3.9.0"
 eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
 eval "$(thefuck --alias)"
-
+eval "$(pyenv virtualenv-init -)"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # this loads nvm
