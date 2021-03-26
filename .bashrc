@@ -38,6 +38,8 @@ alias pv='pyenv which python'
 alias pg38='export PYENV_VERSION="3.8.5"'
 alias pg39='export PYENV_VERSION="3.9.0"'
 alias pgpypy='export PYENV_VERSION="pypy3.7-7.3.3"'
+alias db='ssh -Ap ${PORT} bigdatov@${HOST}'
+alias tl='tmux a -t "j"'
 
 source "$HOME/.cargo/env"
 source "$HOME/.poetry/env"
