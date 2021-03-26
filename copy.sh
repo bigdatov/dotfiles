@@ -7,5 +7,5 @@ cp .bash_aliases ${HOME}
 cp .gitmessage ${HOME}
 cp .gitconfig ${HOME}
 cp .git-completion.bash ${HOME}
-# cp .tmux.conf ${HOME}
+cp .tmux.conf ${HOME}
 # cp .vimrc ${HOME}
