@@ -24,7 +24,6 @@ hansec.fortran-ls
 hbenl.vscode-test-explorer
 HookyQR.beautify
 hoovercj.vscode-settings-cycler
-ivanhofer.git-assistant
 kdcro101.favorites
 krvajalm.linter-gfortran
 lextudio.restructuredtext
