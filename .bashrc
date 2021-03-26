@@ -38,6 +38,8 @@ alias pv='pyenv which python'
 alias pg38='pyenv global 3.8.5'
 alias pg39='pyenv global 3.9.0'
 alias pgpypy='pyenv global pypy3.7-7.3.3'
+alias db='ssh -Ap ${PORT} bigdatov@${HOST}'
+alias tl='tmux a -t "j"'
 
 source "$HOME/.cargo/env"
 source "$HOME/.poetry/env"
@@ -49,7 +51,6 @@ export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 eval "$(thefuck --alias)"
-
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # this loads nvm
