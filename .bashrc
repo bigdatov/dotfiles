@@ -48,9 +48,8 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.poetry/bin:$PATH"
 export PATH="$HOME/.pyenv/bin:$PATH"
 
-export PYENV_VERSION="3.9.0"
+export PYENV_VERSION="3.8.5"
 eval "$(pyenv init -)"
-eval "$(thefuck --alias)"
 eval "$(pyenv virtualenv-init -)"
 
 export NVM_DIR="$HOME/.nvm"
