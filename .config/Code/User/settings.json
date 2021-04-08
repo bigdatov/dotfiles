@@ -19,7 +19,6 @@
 	"diffEditor.renderSideBySide": false,
 	"editor.autoIndent": "advanced",
 	"editor.fontFamily": "'Jet Brains Mono Thin', 'monospace', monospace, 'Droid Sans Fallback'",
-	"editor.fontWeight": "100",
 	"editor.formatOnSave": true,
 	"editor.tabSize": 4,
 	"explorer.confirmDelete": false,
@@ -28,7 +27,6 @@
 	"git.autofetch": true,
 	"git.confirmSync": false,
 	"githubPullRequests.telemetry.enabled": false,
-	"jupyter.jupyterServerType": "local",
 	"prettier.printWidth": 88,
 	"prettier.tabWidth": 4,
 	"prettier.trailingComma": "es5",
@@ -63,16 +61,26 @@
 	"telemetry.enableCrashReporter": false,
 	"telemetry.enableTelemetry": false,
 	"terminal.integrated.fontFamily": "'Jet Brains Mono Thin', 'monospace', monospace, 'Droid Sans Fallback'",
+	"editor.fontWeight": "100",
 	"terminal.integrated.shell.linux": "/bin/bash",
 	"vsicons.dontShowNewVersionMessage": true,
 	"window.newWindowDimensions": "inherit",
 	"window.restoreFullscreen": true,
 	"window.titleBarStyle": "custom",
-	"workbench.colorTheme": "Pitch Black",
 	"workbench.editorAssociations": [
 		{
 			"filenamePattern": "*.ipynb",
 			"viewType": "jupyter.notebook.ipynb"
 		}
-	]
+	],
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "[ ]", "[x]"],
+	"todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+	"git-assistant.checkConfigVariables": "disabled",
+	"files.associations": {
+		".tmux.conf": "plaintext"
+	},
+	"python.languageServer": "Pylance",
+	"workbench.colorTheme": "Quiet Light"
 }
