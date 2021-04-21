@@ -73,7 +73,7 @@ install chrome-gnome-shell
 install chromium-browser
 install exfat-utils
 install openvpn
-install docker
+install docker.io
 install nmap
 
 # vscode

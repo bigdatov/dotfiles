@@ -1,3 +1,5 @@
+sudo snap install ripgrep --classic
+
 function install() {
     which $1 &>/dev/null
     if [ $? -ne 0 ]; then
