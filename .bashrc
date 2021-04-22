@@ -20,7 +20,10 @@ alias branches='git branch -v'
 alias remotes='git remote -v'
 alias docker='sudo docker'
 alias docker-compose='sudo docker-compose'
+alias rmimages="sudo docker images -a | awk '{print$3}' | xargs sudo docker rmi -f"
+alias rmcontainers="sudo docker ps -a | awk '{print$1}' | xargs sudo docker rm -f"
 alias vpn='sudo protonvpn'
+alias spy-pid='sudo env "PATH=$PATH" py-spy top --pid'
 
 if [ -f ~/.git-completion.bash ]; then
     . ~/.git-completion.bash
